@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #e7e3e3;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    height:550px;
+    width: 900px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 4px grey;
+
+}
+.logo{
+    height: 100px;
+    width:100px;
+    display: flex;
+    align-self: center;
+    border-radius: 10px;
+    box-shadow: 0 0 4px grey;
+}
+.side1{
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color:;
+    margin-top: 50px;
+    margin-left: 20px;    
+}
+
+.welcome {
+    margin-top: 70px;
+}
+.side2{
+    margin-left: 20px;
+}
+.pics{
+    height: 400px;
+    width:300px;
+    margin-top: 70px;
+
+}
+.text{
+    text-align: right;
+    margin-top: 30px;
+    color: #0096c2;
+    opacity: 0.4;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+
+}
+input{
+    height: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 80%;
+}
+h4{
+    text-align: center;
+    font-size:25px;
+    font-weight: 400;
+    opacity: 0.4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+a{
+    height: 50px;
+    width:100%;
+    border-radius:20px ;
+    font-size: large;
+    background-color: #0096c2;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+a:hover{
+    background-color: #d10000;
+}
+
+.phone{
+    height: 20px;
+    width: 20px;
+}
+.imageinputwrapper1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    height: 50px;
+    padding-left: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgb(241, 238, 238);
+}
+
+.imageinputwrapper1 img{
+    opacity: 0.4;
+}
+
+.imageinputwrapper2 img {
+    opacity: 0.4;
+}
+
+.imageinputwrapper2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius:10px;
+    height: 50px;
+    padding-left: 8px;
+    box-shadow: 0 2px 5px rgb(241, 238, 238) ;
+    
+
+}
+.eye{
+    height: 20px;
+    width: 20px;
+}
+.number{
+    padding-right: 40px;
+}
+.caution{
+    height: 15px;
+    width: 15px;
+}
